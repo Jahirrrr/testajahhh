@@ -1,0 +1,18 @@
+$primary: #6a983c;
+$body-bg: #fff !default;
+
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  .form-control {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+  }
+}
+
+input {
+  border-radius: 12px;
+}
